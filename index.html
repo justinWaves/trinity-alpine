@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Top Shelf Cannabis grown in Trinity County">
+  <meta name="author" content="">
+
+  <title>Trinity Alpine Cannabis</title>
+  <!---Favicon ---->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">  
+     <!-- Age Modal Script  -->
+  <script src="./js/ageModal.js"></script>
+  
+
+</head>
+
+<body id="page-top">
+
+   <!-- Age Verification Modal -->
+  
+  <div class="modal fade" id="ageModal" role="dialog" aria-labelledby="gridSystemModalLabel" data-backdrop="static"
+    data-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12" id="modal-age-limit" style="margin-bottom: 2.5rem;
+            color: #fff;">
+              <img src="./img/IMG_0150.JPG" style="max-width: 80%; margin-bottom: 20px;">
+              <h3 class="hidden-xs"><strong>MUST BE 21 TO ENTER</strong></h3>
+            </div>
+            <div class="col-xs-4 col-sm-4 mobile-margin-bottom">
+              <select name="month" class="form-control" id="verify-month">
+                <option value="none">Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+            </div>
+            <div class="col-xs-4 col-sm-4 mobile-margin-bottom">
+              <select name="day" class="form-control" id="verify-day">
+                <option value="none">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+            </div>
+            <div class="col-xs-4 col-sm-4">
+              <select name="Year" class="form-control" id="verify-year">
+                <option value="none">Year</option>
+                <option value="1940">1940</option>
+                <option value="1941">1941</option>
+                <option value="1942">1942</option>
+                <option value="1943">1943</option>
+                <option value="1944">1944</option>
+                <option value="1945">1945</option>
+                <option value="1946">1946</option>
+                <option value="1947">1947</option>
+                <option value="1948">1948</option>
+                <option value="1949">1949</option>
+                <option value="1950">1950</option>
+                <option value="1951">1951</option>
+                <option value="1952">1952</option>
+                <option value="1953">1953</option>
+                <option value="1954">1954</option>
+                <option value="1955">1955</option>
+                <option value="1956">1956</option>
+                <option value="1957">1957</option>
+                <option value="1958">1958</option>
+                <option value="1959">1959</option>
+                <option value="1960">1960</option>
+                <option value="1961">1961</option>
+                <option value="1962">1962</option>
+                <option value="1963">1963</option>
+                <option value="1964">1964</option>
+                <option value="1965">1965</option>
+                <option value="1966">1966</option>
+                <option value="1967">1967</option>
+                <option value="1968">1968</option>
+                <option value="1969">1969</option>
+                <option value="1970">1970</option>
+                <option value="1971">1971</option>
+                <option value="1972">1972</option>
+                <option value="1973">1973</option>
+                <option value="1974">1974</option>
+                <option value="1975">1975</option>
+                <option value="1976">1976</option>
+                <option value="1977">1977</option>
+                <option value="1978">1978</option>
+                <option value="1979">1979</option>
+                <option value="1980">1980</option>
+                <option value="1981">1981</option>
+                <option value="1982">1982</option>
+                <option value="1983">1983</option>
+                <option value="1984">1984</option>
+                <option value="1985">1985</option>
+                <option value="1986">1986</option>
+                <option value="1987">1987</option>
+                <option value="1988">1988</option>
+                <option value="1989">1989</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+              </select>
+            </div>
+            <div class="col-xs-12 col-lg-12" id="age-submit-area" style="margin-top: 2rem;
+            color: #fff;">
+              <a href="./index.html" class="btn btn-success" id="age-submit">SUBMIT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/small%20logo.png"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Where to Find</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#features">Order Online</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+ 
+  <!---MAIN SITE -->
+
+
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto">
+          <div class="header-content mx-auto" style="color:black; padding:20px;">
+            <h1 class="mb-5">Greenhouse Grown, Tastes like Indoor. Find Online</h1>
+            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Find a store</a>
+          </div>
+        </div>
+        <div class="col-lg-5 my-auto">
+          <div class="device-container">
+            <div class="device-mockup iphone6_plus portrait white">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="download bg-primary text-center" id="download">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2 class="section-heading">Discover our top shelf flavor </h2>
+          <p>Our signatre strains of flower can be found at these locations. All processed and cured with the utmost of care.</p>
+
+        </div>
+        <div class="locationMap col-md-6">
+          <div> <img src="img/cali.png" style="max-width:50%;">
+          </div>
+        </div>
+        <table class="table col-md-6" id="dList">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Store</th>
+              <th scope="col">Address</th>
+              <th scope="col">Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Get High Ganja Emporium</td>
+              <td>420 Stoneway Ln, 95420, CA</td>
+              <td>(420)420-6969</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Weed Eaters</td>
+              <td>710 Dabsman St, 95420, CA</td>
+              <td>(420)420-6969</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Puff Dat Herbal Care</td>
+              <td>6969 Ganja Ln, 94420, CA </td>
+              <td>(420)420-6969</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Gonget High Shop</td>
+              <td>42020 Weedsville Ln, 94420, CA </td>
+              <td>(420)420-6969</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Better Pass Dat Dispensary</td>
+              <td>710420 Paranoid Ct, 94420, CA </td>
+              <td>(420)420-6969</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>Top Shelf Quality, Premium Cannabis</h2>
+        <p class="text-muted">Orders for California Residents 21 or Older</p>
+        <hr>
+      </div>
+      <div class="row">
+        <img src="img/store.jpg" style="max-width: 100%;">
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="cta-content">
+      <div class="container" style="text-align: center; margin-bottom: -150px;">
+        <div class="bioWrap">
+
+          <h2 class="bioHeader"> The humbled beginnings of Trinity Alpine</h2>
+          <br>
+          <div class="adamBio">
+            <img src="img/farm.png" style="max-width:100%;">
+            <br>
+            <br>
+            <p> At the end of 2016 I found myself in need of a new project. I learned a lot over the years in the industry and felt it was time to build my own farm. So I reached out to my past client to see what he was doing with his property. Come to find out it had sat dormant these many years in the same condition as the neighbor had left it. It was an empty piece of land covered in trash. I knew that if we were going to have any longevity in this project, we would have to start from the ground up following the guidelines set forth by the county and put in the infrastructure needed to accommodate such growth. And so we set forth a plan. this plan included building a processing facility, a home for workers green houses and so on. The owner of the property being the financier, and I would be the project manager as well as grower. I purchased a 32 foot motorhome and my wife and I left for Trinity county...</p>
+          </div>
+          <div class="adamBio2">
+            <h3>"The clean up was horrendous."</h3>
+            <img src="img/cleanup.png" style="max-width:100%;">
+            <br>
+            <br>
+            <p>Eventually we cleared off the site, leveled the ground to make ready for cultivation. Around this
+              time I began to notice that my partner on this property was not handling the build out as
+              expeditiously as needed for success. A key factor for successful cultivation is getting your plants
+              out on time. Which is impossible without infrastructure. We had no place for vegetative growth
+              on the property, no green houses to grow in and my wife and I were still living in our RV. Which
+              is fine for 2 people but not for a full grow team. We were getting into spring and time was
+              running short.</p><br>
+
+            <p>In order to provide a consistent result you must have the appropriate tools to do so. From the outset I’ve been working directly with the county to ensure we are meeting the guidelines set forth so there will be no surprises down the line. Fortunately, the Trinity planning department is very realistic with timelines and doesn’t expect this huge undertaking to be done over night. However they do want to see progress. The county expects these items to be finished in order to retain our compliant standing.</p>
+            <h1>Today "El Dorado" Is a shining example of what can happen when love, blood, sweat, and tears are mixed with
+              rain and sunshine.</h1>
+            <img src="img/eldorado.jpg" style="max-width:100%;">
+          </div>
+
+        </div>
+        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Get to know us</a>
+
+
+      </div>
+    </div>
+    <div class="overlay"></div>
+  </section>
+
+  <section class="contact bg-white" id="contact">
+    <div class="container ">
+      <h2>Get to know us!</h2>
+      <ul class="list-inline list-social">
+
+        <li class="list-inline-item social-google-plus">
+          <a href="https://www.instagram.com/trinityalpinecannabis/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="row justify-content-center" style="margin-top: 25px;">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BynkpufhMzZ/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+          <div style="padding:16px;"> <a href="https://www.instagram.com/p/BynkpufhMzZ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+              <div style=" display: flex; flex-direction: row; align-items: center;">
+                <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                  <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+                  <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+                </div>
+              </div>
+              <div style="padding: 19% 0;"></div>
+              <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                      <g>
+                        <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg></div>
+              <div style="padding-top: 8px;">
+                <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div>
+              </div>
+              <div style="padding: 12.5% 0;"></div>
+              <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                <div>
+                  <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+                  <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+                  <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+                </div>
+                <div style="margin-left: 8px;">
+                  <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+                  <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                </div>
+                <div style="margin-left: auto;">
+                  <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+                  <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+                  <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+                </div>
+              </div>
+            </a>
+            <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BynkpufhMzZ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Another beautiful day in the field... @slambellina giving the girls some love . #cannabiscommunity #trinityalpinecannabis #knowyourfarmer #caligrown #420</a></p>
+            <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/trinityalpinecannabis/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Adam Ant</a> (@trinityalpinecannabis) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-06-12T17:36:36+00:00">Jun 12, 2019 at 10:36am PDT</time></p>
+          </div>
+        </blockquote>
+        <script async src="//www.instagram.com/embed.js"></script>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="footer_main">
+      <div class="container">
+        <article class="row">
+          <aside class="col-lg-3 col-md-6">
+            <img src="./img/weedSmall.jpg" style="max-width:100%; border-radius:100%; margin-bottom: 25px;">
+          </aside>
+          <aside class="col-lg-3 col-md-6" style="margin-bottom: 25px;">
+            <div class="footer_link">
+              <h3 style="color:whitesmoke;">GUIDENCE</h3>
+              <ul>
+                <li>
+                  <a href="./PrivacyP.html" target="_blank">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="./TermsAndConditions.HTML" target="_blank">Terms and Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <aside class="col-lg-3 col-md-6">
+            <div class="contact_wrapp" style="margin-bottom: 25px;">
+              <h3 style="color:whitesmoke; ">CONTACT US </h3>
+              <div class="address">
+                <div class="icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="address_text">
+                  <p>420 XXXX XXXXX Hayfork, CA
+                    United States of America</p>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="address">
+                <div class="icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="address_text">
+                  <a href="tel:+1 510 823 3879">
+                    <p>+1 510 823 3879</p>
+                  </a>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="address">
+                <div class="icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="address_text">
+                  <p><a href="mailto:adsmith@trinityalpineco.com">adsmith@trinityalpineco.com</a></p>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+
+
+          </aside>
+          <aside class="col-lg-3 col-md-6">
+
+
+            <img src="./img/IMG_0150.JPG" style="max-width:100%;">
+
+            <!--
+          
+            <div class="newsletter_inner">
+              <div class="newsletter_left">
+                <h3 style="color:whitesmoke;">SUBSCRIBE TO NEWSLETTER </h3>
+              </div>
+              <div role="form" class="wpcf7" id="wpcf7-f207-o1" lang="en-US" dir="ltr">
+                <div class="screen-reader-response"></div>
+                <form action="/#wpcf7-f207-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                  <div style="display: none;">
+                    <input type="hidden" name="_wpcf7" value="207">
+                    <input type="hidden" name="_wpcf7_version" value="5.1.6">
+                    <input type="hidden" name="_wpcf7_locale" value="en_US">
+                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f207-o1">
+                    <input type="hidden" name="_wpcf7_container_post" value="0">
+                  </div>
+                  <div class="newsletter_right">
+                    <span class="wpcf7-form-control-wrap news-email"><input type="email" name="news-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="Enter your email"></span><br>
+                    <input type="submit" value="send" class="wpcf7-form-control wpcf7-submit btn_black"><span class="ajax-loader"></span>
+                  </div>
+                  <div class="wpcf7-response-output wpcf7-display-none"></div>
+                </form>
+              </div>
+            </div>
+       -->
+          </aside>
+        </article>
+      </div>
+    </div>
+    <div class="container" style="margin-top:25px; background-color: black">
+      <p>&copy; Trinity Alpine Cannabis 2020. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/new-age.min.js"></script>
+  
+
+</body>
+
+</html>
